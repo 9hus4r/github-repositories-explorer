@@ -2,6 +2,7 @@
   "name": "github-repositories-explorer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://agungpg.github.io/github-repositories-explorer",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -11,6 +12,7 @@
     "@types/react": "^18.2.11",
     "@types/react-dom": "^18.2.4",
     "axios": "^1.4.0",
+    "gh-pages": "^5.0.0",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",
     "react": "^18.2.0",
@@ -27,7 +29,9 @@
     "eject": "react-scripts eject",
     "format": "prettier -c src",
     "format:fix": "prettier -w src",
-    "typecheck": "tsc --noEmit --incremental false"
+    "typecheck": "tsc --noEmit --incremental false",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
