@@ -1,9 +1,9 @@
 import React from 'react'
 import RepositoryCard from '../RepositoryCard/RepositoryCard'
-import { GithubUserRepoType } from '../../types'
+import { RepositoryListType } from '../../types'
 import { RepoLoading } from '../Loading'
 
-const RepositoryList = ({ repositories, isLoading }: { repositories: GithubUserRepoType[]; isLoading: boolean }) =>
+const RepositoryList = ({ repositories, isLoading }: RepositoryListType) =>
   isLoading ? (
     <RepoLoading />
   ) : repositories.length > 0 ? (

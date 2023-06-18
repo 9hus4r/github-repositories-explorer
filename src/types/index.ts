@@ -40,3 +40,21 @@ export type IconType = {
   width?: number
   color?: string
 }
+
+export type RepositoryListType = {
+  repositories: GithubUserRepoType[]
+  isLoading: boolean
+}
+
+export type UserRepositoriesCardType = {
+  user: GitHubUserType
+  isRepositoriesShow: boolean
+  toggleUserSelected: (e: React.MouseEvent<HTMLSpanElement, MouseEvent>, log: string) => void
+  isRepoLoading: boolean
+  repositories: GithubUserRepoType[]
+}
+
+export type UserRepositoriesListType = {
+  users: GitHubUserType[]
+  isLoading?: boolean
+}

@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { getListRepoByUsername } from '../../services'
-import { GitHubUserType, GithubUserRepoType } from '../../types'
+import { GitHubUserType, GithubUserRepoType, UserRepositoriesListType } from '../../types'
 import UserRepositoriesCard from '../UserRepositoriesCard/UserRepositoriesCard'
 import { UserLoading } from '../Loading'
 
-const UserRepositoriesList = ({ users, isLoading }: { users: GitHubUserType[]; isLoading?: boolean }) => {
+const UserRepositoriesList = ({ users, isLoading }: UserRepositoriesListType) => {
   const [userSelected, setUserSelected] = useState('')
   const [repositories, setRepositories] = useState<GithubUserRepoType[]>([])
   const [repoLoading, setRepoLoading] = useState(false)

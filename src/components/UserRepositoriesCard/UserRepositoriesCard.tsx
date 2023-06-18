@@ -1,15 +1,7 @@
 import React from 'react'
 import UserCard from '../UserCard/UserCard'
 import RepositoryList from '../RepositoryList/RepositoryList'
-import { GitHubUserType, GithubUserRepoType } from '../../types'
-
-interface UserRepositoriesCardPropsType {
-  user: GitHubUserType
-  isRepositoriesShow: boolean
-  toggleUserSelected: (e: React.MouseEvent<HTMLSpanElement, MouseEvent>, log: string) => void
-  isRepoLoading: boolean
-  repositories: GithubUserRepoType[]
-}
+import { UserRepositoriesCardType } from '../../types'
 
 const UserRepositoriesCard = ({
   user,
@@ -17,7 +9,7 @@ const UserRepositoriesCard = ({
   toggleUserSelected,
   isRepoLoading,
   repositories,
-}: UserRepositoriesCardPropsType) => (
+}: UserRepositoriesCardType) => (
   <div className='flex w-full flex-col space-y-[12px]'>
     <UserCard
       name={user?.login}
