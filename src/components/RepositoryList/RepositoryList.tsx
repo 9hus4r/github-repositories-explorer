@@ -10,6 +10,7 @@ const RepositoryList = ({ repositories, isLoading }: { repositories: GithubUserR
     <div className='flex flex-col space-y-[8px]'>
       {repositories.map((repo: any) => (
         <RepositoryCard
+          key={repo.id}
           name={repo.name}
           stars_count={repo.stargazers_count}
           description={repo.description}

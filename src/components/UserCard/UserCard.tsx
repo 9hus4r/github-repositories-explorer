@@ -7,8 +7,9 @@ const CardUser = ({ name, isOpen, toggle }: CardUserType) => (
   <div
     onClick={(e) => toggle(e, name)}
     className='flex h-[36px] w-full cursor-pointer items-center justify-between bg-[#f1f1f1] px-[8px]'
+    data-testid='user-card'
   >
-    <span className='text-[16px] font-semibold text-[#000]'>{name}</span>
+    <h3 className='username text-[16px] font-semibold text-[#000]'>{name}</h3>
     <span className='cursor-pointer'>
       {isOpen ? (
         <ArrowDownIcon

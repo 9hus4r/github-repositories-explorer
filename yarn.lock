@@ -2652,7 +2652,7 @@ array-includes@^3.1.5, array-includes@^3.1.6:
 
 array-union@^1.0.1:
   version "1.0.2"
-  resolved "https://registry.yarnpkg.com/array-union/-/array-union-1.0.2.tgz#9a34410e4f4e3da23dea375be5be70f24778ec39"
+  resolved "https://registry.npmjs.org/array-union/-/array-union-1.0.2.tgz"
   integrity sha512-Dxr6QJj/RdU/hCaBjOfxW+q6lyuVE6JFWIrAUpuOOhoJJoQ99cUn3igRaHVB5P9WrgFVN0FfArM3x0cueOU8ng==
   dependencies:
     array-uniq "^1.0.1"
@@ -2664,7 +2664,7 @@ array-union@^2.1.0:
 
 array-uniq@^1.0.1:
   version "1.0.3"
-  resolved "https://registry.yarnpkg.com/array-uniq/-/array-uniq-1.0.3.tgz#af6ac877a25cc7f74e058894753858dfdb24fdb6"
+  resolved "https://registry.npmjs.org/array-uniq/-/array-uniq-1.0.3.tgz"
   integrity sha512-MNha4BWQ6JbwhFhj03YK552f7cb3AzoE8SzeljgChvL1dl3IcvggXVz1DilzySZkCja+CXuZbdW7yATchWn8/Q==
 
 array.prototype.flat@^1.3.1:
@@ -2755,6 +2755,14 @@ axe-core@^4.6.2:
   version "4.7.2"
   resolved "https://registry.npmjs.org/axe-core/-/axe-core-4.7.2.tgz"
   integrity sha512-zIURGIS1E1Q4pcrMjp+nnEh+16G56eG/MUllJH8yEvw7asDo7Ac9uhC9KIH5jzpITueEZolfYglnCGIuSBz39g==
+
+axios-mock-adapter@^1.21.5:
+  version "1.21.5"
+  resolved "https://registry.yarnpkg.com/axios-mock-adapter/-/axios-mock-adapter-1.21.5.tgz#dd85081717a759f88509c20515082dc09c1cedd7"
+  integrity sha512-5NI1V/VK+8+JeTF8niqOowuysA4b8mGzdlMN/QnTnoXbYh4HZSNiopsDclN2g/m85+G++IrEtUdZaQ3GnaMsSA==
+  dependencies:
+    fast-deep-equal "^3.1.3"
+    is-buffer "^2.0.5"
 
 axios@^1.4.0:
   version "1.4.0"
@@ -3903,7 +3911,7 @@ electron-to-chromium@^1.4.411:
 
 email-addresses@^5.0.0:
   version "5.0.0"
-  resolved "https://registry.yarnpkg.com/email-addresses/-/email-addresses-5.0.0.tgz#7ae9e7f58eef7d5e3e2c2c2d3ea49b78dc854fa6"
+  resolved "https://registry.npmjs.org/email-addresses/-/email-addresses-5.0.0.tgz"
   integrity sha512-4OIPYlA6JXqtVn8zpHpGiI7vE6EQOAg16aGnDMIAlZVinnoZ8208tW1hAbjWydgN/4PLTT9q+O1K6AH/vALJGw==
 
 emittery@^0.10.2:
@@ -4510,12 +4518,12 @@ filelist@^1.0.4:
 
 filename-reserved-regex@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/filename-reserved-regex/-/filename-reserved-regex-2.0.0.tgz#abf73dfab735d045440abfea2d91f389ebbfa229"
+  resolved "https://registry.npmjs.org/filename-reserved-regex/-/filename-reserved-regex-2.0.0.tgz"
   integrity sha512-lc1bnsSr4L4Bdif8Xb/qrtokGbq5zlsms/CYH8PP+WtCkGNF65DPiQY8vG3SakEdRn8Dlnm+gW/qWKKjS5sZzQ==
 
 filenamify@^4.3.0:
   version "4.3.0"
-  resolved "https://registry.yarnpkg.com/filenamify/-/filenamify-4.3.0.tgz#62391cb58f02b09971c9d4f9d63b3cf9aba03106"
+  resolved "https://registry.npmjs.org/filenamify/-/filenamify-4.3.0.tgz"
   integrity sha512-hcFKyUG57yWGAzu1CMt/dPzYZuv+jAJUT85bL8mrXvNe6hWj6yEHEc4EdcgiA6Z3oi1/9wXJdZPXF2dZNgwgOg==
   dependencies:
     filename-reserved-regex "^2.0.0"
@@ -4667,7 +4675,7 @@ fs-extra@^10.0.0:
 
 fs-extra@^8.1.0:
   version "8.1.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
+  resolved "https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz"
   integrity sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==
   dependencies:
     graceful-fs "^4.2.0"
@@ -4764,7 +4772,7 @@ get-symbol-description@^1.0.0:
 
 gh-pages@^5.0.0:
   version "5.0.0"
-  resolved "https://registry.yarnpkg.com/gh-pages/-/gh-pages-5.0.0.tgz#e0893272a0e33f0453e53a3c017c33b91ddd6394"
+  resolved "https://registry.npmjs.org/gh-pages/-/gh-pages-5.0.0.tgz"
   integrity sha512-Nqp1SjkPIB94Xw/3yYNTUL+G2dxlhjvv1zeN/4kMC1jfViTEqhtVz/Ba1zSXHuvXCN9ADNS1dN4r5/J/nZWEQQ==
   dependencies:
     async "^3.2.4"
@@ -4867,7 +4875,7 @@ globby@^11.0.4, globby@^11.1.0:
 
 globby@^6.1.0:
   version "6.1.0"
-  resolved "https://registry.yarnpkg.com/globby/-/globby-6.1.0.tgz#f5a6d70e8395e21c858fb0489d64df02424d506c"
+  resolved "https://registry.npmjs.org/globby/-/globby-6.1.0.tgz"
   integrity sha512-KVbFv2TQtbzCoxAnfD6JcHZTYCzyliEaaeM/gH8qQdkKr5s0OP9scEgvdcngyk7AVdY6YVW/TJHd+lQ/Df3Daw==
   dependencies:
     array-union "^1.0.1"
@@ -5262,6 +5270,11 @@ is-boolean-object@^1.1.0:
   dependencies:
     call-bind "^1.0.2"
     has-tostringtag "^1.0.0"
+
+is-buffer@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-2.0.5.tgz#ebc252e400d22ff8d77fa09888821a24a658c191"
+  integrity sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==
 
 is-callable@^1.1.3, is-callable@^1.1.4, is-callable@^1.2.7:
   version "1.2.7"
@@ -6116,7 +6129,7 @@ json5@^2.1.2, json5@^2.2.0, json5@^2.2.2:
 
 jsonfile@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
+  resolved "https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz"
   integrity sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==
   optionalDependencies:
     graceful-fs "^4.1.6"
@@ -6871,14 +6884,14 @@ pify@^2.0.0, pify@^2.3.0:
 
 pinkie-promise@^2.0.0:
   version "2.0.1"
-  resolved "https://registry.yarnpkg.com/pinkie-promise/-/pinkie-promise-2.0.1.tgz#2135d6dfa7a358c069ac9b178776288228450ffa"
+  resolved "https://registry.npmjs.org/pinkie-promise/-/pinkie-promise-2.0.1.tgz"
   integrity sha512-0Gni6D4UcLTbv9c57DfxDGdr41XfgUjqWZu492f0cIGr16zDU06BWP/RAEvOuo7CQ0CNjHaLlM59YJJFm3NWlw==
   dependencies:
     pinkie "^2.0.0"
 
 pinkie@^2.0.0:
   version "2.0.4"
-  resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
+  resolved "https://registry.npmjs.org/pinkie/-/pinkie-2.0.4.tgz"
   integrity sha512-MnUuEycAemtSaeFSjXKW/aroV7akBbY+Sv+RkyqFjgAe73F+MR0TBWKBRDkmfWq/HiFmdavfZ1G7h4SPZXaCSg==
 
 pirates@^4.0.1, pirates@^4.0.4:
@@ -7464,12 +7477,12 @@ prelude-ls@~1.1.2:
 
 prettier-plugin-tailwindcss@^0.3.0:
   version "0.3.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.3.0.tgz#8299b307c7f6467f52732265579ed9375be6c818"
+  resolved "https://registry.npmjs.org/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.3.0.tgz"
   integrity sha512-009/Xqdy7UmkcTBpwlq7jsViDqXAYSOMLDrHAdTMlVZOrKfM2o9Ci7EMWTMZ7SkKBFTG04UM9F9iM2+4i6boDA==
 
 prettier@^2.8.8:
   version "2.8.8"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
+  resolved "https://registry.npmjs.org/prettier/-/prettier-2.8.8.tgz"
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
 pretty-bytes@^5.3.0, pretty-bytes@^5.4.1:
@@ -8495,7 +8508,7 @@ strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
 
 strip-outer@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/strip-outer/-/strip-outer-1.0.1.tgz#b2fd2abf6604b9d1e6013057195df836b8a9d631"
+  resolved "https://registry.npmjs.org/strip-outer/-/strip-outer-1.0.1.tgz"
   integrity sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg==
   dependencies:
     escape-string-regexp "^1.0.2"
@@ -8771,7 +8784,7 @@ tr46@^2.1.0:
 
 trim-repeated@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/trim-repeated/-/trim-repeated-1.0.0.tgz#e3646a2ea4e891312bf7eace6cfb05380bc01c21"
+  resolved "https://registry.npmjs.org/trim-repeated/-/trim-repeated-1.0.0.tgz"
   integrity sha512-pkonvlKk8/ZuR0D5tLW8ljt5I8kmxp2XKymhepUeOdCEfKpZaktSArkLHZt76OB1ZvO9bssUsDty4SWhLvZpLg==
   dependencies:
     escape-string-regexp "^1.0.2"
@@ -8918,7 +8931,7 @@ unique-string@^2.0.0:
 
 universalify@^0.1.0:
   version "0.1.2"
-  resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
+  resolved "https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz"
   integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
 
 universalify@^0.2.0:

@@ -9,7 +9,7 @@ const StartIcon = ({ width, height, color }: IconType) => (
     width={width || '64px'}
     height={height || '64px'}
     viewBox='0 0 64 64'
-    enable-background='new 0 0 64 64'
+    enableBackground='new 0 0 64 64'
   >
     <path
       fill={color || '#231F20'}

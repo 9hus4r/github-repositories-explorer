@@ -15,8 +15,8 @@ export type GitHubUserType = {
 export type GithubUserRepoType = {
   id: number
   name: string
-  description: string
-  stargazers_count: string
+  description?: string
+  stargazers_count?: string
 }
 
 export type CardUserType = {
