@@ -6,6 +6,9 @@ const UserSearchForm = ({ onSubmit }: SearchFormType) => {
   const [isError, seIsError] = useState(false)
   const [usernameSearch, setUsernameSearch] = useState('')
 
+  const borderColorClass = isError ? `border-[#FF5E5E]` : `border-[#ddd]`
+  const outlineClass = isError ? `outline-none` : ``
+
   const onChange = (e: ChangeEvent<HTMLInputElement>) => {
     seIsError(false)
     setUsername(e.target.value)
@@ -31,9 +34,7 @@ const UserSearchForm = ({ onSubmit }: SearchFormType) => {
           onKeyUp={onkeyup}
           onChange={onChange}
           placeholder='Enter username'
-          className={`h-[40px] w-full bg-[#f1f1f1] p-[8px] text-[16px] border-[${
-            isError ? '#FF5E5E' : '#ddd'
-          }] rounded border-[2px]`}
+          className={`h-[40px] w-full bg-[#f1f1f1] p-[8px] text-[16px] rounded border-[2px] ${borderColorClass} ${outlineClass}`}
         />
         {isError && <span className='text-[#FF5E5E]'>Please enter username for search user list</span>}
       </div>
