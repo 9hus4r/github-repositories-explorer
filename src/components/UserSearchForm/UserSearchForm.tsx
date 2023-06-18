@@ -1,7 +1,7 @@
 import React, { ChangeEvent, useState } from 'react'
-import { SearchFormType } from '../types'
+import { SearchFormType } from '../../types'
 
-const SearchForm = ({ onSubmit }: SearchFormType) => {
+const UserSearchForm = ({ onSubmit }: SearchFormType) => {
   const [username, setUsername] = useState('')
   const [isError, seIsError] = useState(false)
   const [usernameSearch, setUsernameSearch] = useState('')
@@ -23,7 +23,7 @@ const SearchForm = ({ onSubmit }: SearchFormType) => {
     onSubmit(username)
     setUsernameSearch(username)
   }
-  console.log('isError: ', isError)
+
   return (
     <>
       <div>
@@ -48,4 +48,4 @@ const SearchForm = ({ onSubmit }: SearchFormType) => {
   )
 }
 
-export default React.memo(SearchForm)
+export default React.memo(UserSearchForm)

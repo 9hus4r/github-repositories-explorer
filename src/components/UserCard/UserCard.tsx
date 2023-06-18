@@ -1,7 +1,7 @@
 import React from 'react'
-import { CardUserType } from '../types'
-import ArrowUpIcon from '../assets/icons/ArrowUpIcon'
-import ArrowDownIcon from '../assets/icons/ArrowDownIcon'
+import { CardUserType } from '../../types'
+import ArrowUpIcon from '../../assets/icons/ArrowUpIcon'
+import ArrowDownIcon from '../../assets/icons/ArrowDownIcon'
 
 const CardUser = ({ name, isOpen, toggle }: CardUserType) => (
   <div

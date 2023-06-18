@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.css'
-import Main from './pages'
+import UserRepositories from './pages/UserRepositories/UserRepositories'
 
 function App() {
-  return <Main />
+  return <UserRepositories />
 }
 
 export default App

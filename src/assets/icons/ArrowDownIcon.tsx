@@ -1,7 +1,7 @@
 import React from 'react'
 import { IconType } from '../../types'
 
-const StartIcon = ({ width, height, color }: IconType) => (
+const ArrowDownIcon = ({ width, height, color }: IconType) => (
   <svg
     fill={color || '#000000'}
     width={width || '64px'}
@@ -17,4 +17,4 @@ const StartIcon = ({ width, height, color }: IconType) => (
   </svg>
 )
 
-export default React.memo(StartIcon)
+export default React.memo(ArrowDownIcon)
